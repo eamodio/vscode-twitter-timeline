@@ -1,0 +1,48 @@
+{
+	"env": {
+		"es6": true,
+		"node": true
+	},
+	"extends": [
+		"eslint:recommended",
+		"plugin:@typescript-eslint/recommended",
+		"plugin:@typescript-eslint/recommended-requiring-type-checking",
+		"prettier",
+		"prettier/@typescript-eslint"
+	],
+	"parser": "@typescript-eslint/parser",
+	"parserOptions": {
+		"ecmaVersion": 2019,
+		"sourceType": "module",
+		"ecmaFeatures": {
+			"impliedStrict": true
+		},
+		"project": "tsconfig.json"
+	},
+	"plugins": ["@typescript-eslint"],
+	"reportUnusedDisableDirectives": true,
+	"root": true,
+	"rules": {
+		"arrow-parens": ["off"],
+		"brace-style": ["off", "stroustrup"],
+		"consistent-return": "error",
+		"curly": ["error", "multi-line", "consistent"],
+		"eol-last": "error",
+		"linebreak-style": ["error", "unix"],
+		"no-empty": "off",
+		"@typescript-eslint/no-empty-function": "off",
+		"@typescript-eslint/no-explicit-any": "off",
+		"@typescript-eslint/no-non-null-assertion": "off",
+		"@typescript-eslint/no-unsafe-assignment": "off",
+		"@typescript-eslint/no-unsafe-member-access": "off",
+		"@typescript-eslint/no-unused-vars": [
+			"warn",
+			{
+				"args": "after-used",
+				"argsIgnorePattern": "^_",
+				"ignoreRestSiblings": true,
+				"varsIgnorePattern": "^_$"
+			}
+		]
+	}
+}
