@@ -14,10 +14,10 @@
 			"cwd": "${workspaceFolder}",
 			// Create a Twitter app here: https://developer.twitter.com/en/apps
 			// "env": {
-			// 	"TWITTER_CONSUMER_KEY": "<your-key-here>",
-			// 	"TWITTER_CONSUMER_SECRET": "<your-secret-here>",
-			// 	"TWITTER_ACCESS_TOKEN_KEY": "<your-key-here>",
-			// 	"TWITTER_ACCESS_TOKEN_SECRET": "<your-secret-here>"
+			// 	"TWITTER_CONSUMER_KEY": "<your-consumer-key-here>"
+			// 	"TWITTER_CONSUMER_SECRET": "<your-consumer-secret-here>"
+			// 	"TWITTER_ACCESS_TOKEN_KEY": "<your-access-token-here>"
+			// 	"TWITTER_ACCESS_TOKEN_SECRET": "<your-access-token-secret-here>"
 			// },
 			"outFiles": ["${workspaceFolder}/out/**/*.js"],
 			"preLaunchTask": "${defaultBuildTask}",
@@ -34,10 +34,10 @@
 			"cwd": "${workspaceFolder}",
 			// Create a Twitter app here: https://developer.twitter.com/en/apps
 			// "env": {
-			// 	"TWITTER_CONSUMER_KEY": "<your-key-here>",
-			// 	"TWITTER_CONSUMER_SECRET": "<your-secret-here>",
-			// 	"TWITTER_ACCESS_TOKEN_KEY": "<your-key-here>",
-			// 	"TWITTER_ACCESS_TOKEN_SECRET": "<your-secret-here>"
+			// 	"TWITTER_CONSUMER_KEY": "<your-consumer-key-here>"
+			// 	"TWITTER_CONSUMER_SECRET": "<your-consumer-secret-here>"
+			// 	"TWITTER_ACCESS_TOKEN_KEY": "<your-access-token-here>"
+			// 	"TWITTER_ACCESS_TOKEN_SECRET": "<your-access-token-secret-here>"
 			// },
 			"outFiles": ["${workspaceFolder}/dist/**/*.js"],
 			"preLaunchTask": "${defaultBuildTask}",
